@@ -6,8 +6,9 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "postinstall": "nuxt prepare"
-    },
+    "postinstall": "nuxt prepare",
+    "start": "node .output/server/index.mjs"    
+  },
   "dependencies": {
     "ms": "^2.1.3",
     "nuxt": "^3.8.2",
