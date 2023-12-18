@@ -7,10 +7,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "postinstall": "nuxt prepare",
-    "start": "node .output/server/index.mjs",
-    "heroku-prebuild": "echo OLES This runs before Heroku installs dependencies.",
-    "heroku-postbuild": "echo OLES This runs after Heroku installs dependencies, but before Heroku prunes and caches dependencies.",
-    "heroku-cleanup": "echo OLES This runs after Heroku prunes and caches dependencies."
+    "start": "node .output/server/index.mjs"
   },
   "dependencies": {
     "ms": "^2.1.3",
