@@ -15,6 +15,6 @@ export default defineNuxtConfig({
     '/ssr': { ssr: true },
     '/api/**': { cors: true },
   },
-  nitro: { preset: 'node-server' },
+  nitro: { preset: 'node' },
   
 })
