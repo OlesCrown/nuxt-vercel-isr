@@ -3,6 +3,7 @@ import ms from 'ms'
 
 const { data: info } = await useFetch('/api/info')
 
+const isServer = process.server
 const generatedAt = useState(() => new Date().toISOString())
 const date = new Date(generatedAt.value)
 const timeAgo = ref()
@@ -14,7 +15,7 @@ onMounted(() => {
 <template>
   <div id="container">
     <Head>
-      <Title>Nuxt on Vercel process.server={{process.process.server}}@ </Title>
+      <Title>Nuxt on Vercel process.server={{isServer}}@ </Title>
       <Meta
         name="description"
         content="HTML, dynamically rendered in a city near you"
