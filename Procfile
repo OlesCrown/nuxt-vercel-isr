@@ -1,1 +1,1 @@
-web: bin/start-nginx node apprunner.mjs
+web: node apprunner.mjs
