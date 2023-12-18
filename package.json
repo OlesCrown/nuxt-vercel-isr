@@ -4,7 +4,7 @@
     "node": "20.x"
   },
   "scripts": {
-    "build": "nuxt build",
+    "build": "nuxt build --prerender",
     "dev": "nuxt dev",
     "postinstall": "nuxt prepare",
     "start": "node .output/server/index.mjs"
