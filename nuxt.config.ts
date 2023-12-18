@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     '/redirect': { redirect: '/static' },
     '/headers': { headers: { 'x-magic-of': 'nuxt and vercel' } },
     '/spa': { ssr: false },
+    '/api/**': { cors: true },
   },
   runtimeConfig: {
     nitro: { envPrefix: 'VERCEL_' },
