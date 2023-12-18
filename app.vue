@@ -15,8 +15,7 @@ onMounted(() => {
 <template>
   <div>
 
-    <h1>Hello from Vercel!</h1>
-    <div>Regenerated at {{  generatedAt }}</div>
+  <NuxtPage></NuxtPage>
   </div>
           
 
