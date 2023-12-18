@@ -15,7 +15,7 @@ onMounted(() => {
 <template>
   <div>
 
-    <h1>Hello from prerendered!</h1>
+    <h1>Hello from prerendered{{isServer}}!</h1>
     <div>Regenerated at {{  generatedAt }}</div>
   </div>
           

@@ -13,7 +13,7 @@ onMounted(() => {
 </script>
 
 <template>
-        <h1>Hello from INDEX!</h1>
+        <h1>Hello from INDEX {{isServer}}!</h1>
           
       <div>Regenerated at {{ generatedAt }}</div>
 

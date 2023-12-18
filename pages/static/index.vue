@@ -15,7 +15,7 @@ onMounted(() => {
 <template>
   <div>
 
-    <h1>Hello from STATIC!</h1>
+    <h1>Hello from STATIC{{isServer}}!</h1>
     <div>Regenerated at {{  generatedAt }}</div>
   </div>
           
