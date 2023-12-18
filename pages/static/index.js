@@ -41,7 +41,7 @@ onMounted(() => {
     <div style="height: 100%">
       <AppBackground />
       <main>
-        <h1>Nuxt  PRERENDERED process.server=@{{isServer}}@ </h1>
+        <h1>Nuxt  STATIC process.server=@{{isServer}}@ </h1>
         <div class="info">
           <div class="block">
             <div v-if="info" class="contents">
