@@ -14,7 +14,7 @@ onMounted(() => {
 <template>
   <div id="container">
     <Head>
-      <Title>Nuxt on Vercel</Title>
+      <Title>Nuxt on Vercel process.server={{process.process.server}}@ </Title>
       <Meta
         name="description"
         content="HTML, dynamically rendered in a city near you"
