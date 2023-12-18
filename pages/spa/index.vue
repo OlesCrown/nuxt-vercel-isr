@@ -15,7 +15,7 @@ onMounted(() => {
 <template>
   <div id="container">
     <Head>
-      <Title>Nuxt on Vercel </Title>
+      <Title>Nuxt on SPA process.server={{isServer}}@ </Title>
       <Meta
         name="description"
         content="HTML, dynamically rendered in a city near you"
@@ -41,7 +41,7 @@ onMounted(() => {
     <div style="height: 100%">
       <AppBackground />
       <main>
-        <h1>Nuxt  STATIC process.server=@{{isServer}}@ </h1>
+        <h1>Hello from Vercel!</h1>
         <div class="info">
           <div class="block">
             <div v-if="info" class="contents">
